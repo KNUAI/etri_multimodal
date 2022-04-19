@@ -52,7 +52,7 @@ if args.seed is not None:
 
 #loader
 class SpectrogramDataset(Dataset):
-    def __init__(self, path_list, max_seq_len, tokenizer):
+    def __init__(self, path_list, max_seq_len):
         super(SpectrogramDataset, self).__init__()
         # [0] = wav, [1] = txt, [2] = emo_label, [3] = valence, [4] = arousal
         self.wav_list = path_list[0]
