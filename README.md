@@ -53,7 +53,7 @@ text_model 기반 감정(정도) 학습/평가 모델 실행
 python text_regression.py --batch_size 32 --lr 1e-5 --num_fold 1
 ```
 
-text_model 기반 감정(종류) 학습/평가 모델 실행
+text_model 기반 감정(종류 및 정도) 학습/평가 모델 실행
 ```
 python text_total.py --batch_size 32 --lr 1e-5 --num_fold 1
 ```
@@ -68,7 +68,7 @@ speech_model 기반 감정(정도) 학습/평가 모델 실행
 python speech_regression.py --batch_size 32 --lr 1e-5 --num_fold 1
 ```
 
-speech_model 기반 감정(종류) 학습/평가 모델 실행
+speech_model 기반 감정(종류 및 정도) 학습/평가 모델 실행
 ```
 python speech_total.py --batch_size 32 --lr 1e-5 --num_fold 1
 ```
@@ -83,7 +83,7 @@ multimodal_model 기반 감정(정도) 학습/평가 모델 실행
 python multimodal_regression.py --batch_size 32 --lr 1e-5 --num_fold 1
 ```
 
-multimodal_model 기반 감정(종류) 학습/평가 모델 실행
+multimodal_model 기반 감정(종류 및 정도) 학습/평가 모델 실행
 ```
 python multimodal_total.py --batch_size 32 --lr 1e-5 --num_fold 1
 ```
