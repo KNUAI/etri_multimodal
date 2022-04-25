@@ -3,7 +3,7 @@
     python: 3.8.12
     numpy: 1.19.5
     pandas: 1.3.4
-    torch: 1.10.0
+    torch: 1.9.1
     torchaudio: 0.10.0
     transformers: 4.12.2
     sklearn: 1.0.1
